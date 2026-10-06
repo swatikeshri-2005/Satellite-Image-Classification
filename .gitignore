@@ -1,0 +1,54 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/
+dataset/
+datasets/
+
+# Large ML files
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pb
+*.pkl
+*.joblib
+
+# TensorFlow
+checkpoint/
+checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+```
